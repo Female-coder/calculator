@@ -1,0 +1,38 @@
+button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  font: 3rem;
+  background-color: hsl(294, 55%, 64%);
+  border: none;
+  font-weight: bolder;
+  font-size: 20px;
+}
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+.calculator {
+  width: 30%;
+  background-color: rgb(57, 53, 61);
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+
+#display {
+  width: 91%;
+  height: 60px;
+  background-color: hsl(294, 55%, 64%);
+  margin: 12px;
+  font-size: 20px;
+}
+button:hover {
+  background-color: hsl(294, 55%, 80%);
+}
+
+button:active {
+  background-color: hsl(294, 55%, 95%);
+}
